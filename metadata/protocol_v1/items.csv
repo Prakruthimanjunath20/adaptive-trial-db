@@ -1,0 +1,16 @@
+form_code,item_code,label,data_type,unit,range_min,range_max,required,choices
+eligibility,age,Age at consent,int,years,18,110,Y,
+eligibility,spo2,Oxygen saturation (SpO2),int,%,50,100,Y,
+eligibility,fio2,Fraction of inspired oxygen (FiO2),real,,0.21,1.0,Y,
+eligibility,consent_date,Date of consent,date,,,,Y,
+baseline,sex,Sex,code,,,,Y,1=Male|2=Female
+baseline,weight_kg,Weight,real,kg,30,250,N,
+baseline,sbp,Systolic blood pressure,int,mmHg,60,250,Y,
+baseline,dbp,Diastolic blood pressure,int,mmHg,30,150,N,
+baseline,heart_rate,Heart rate,int,beats/min,20,220,N,
+baseline,creatinine_umol_l,Serum creatinine,real,umol/L,20,1500,N,
+day7,sbp,Systolic blood pressure,int,mmHg,60,250,N,
+day7,spo2,Oxygen saturation (SpO2),int,%,50,100,N,
+day7,ventilated,Invasive ventilation since baseline,code,,,,N,0=No|1=Yes
+outcome,day28_status,Status at day 28,code,,,,Y,1=Alive|2=Dead
+outcome,discharge_date,Date of hospital discharge,date,,,,N,

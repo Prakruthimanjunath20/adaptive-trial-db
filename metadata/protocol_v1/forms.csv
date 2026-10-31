@@ -1,0 +1,5 @@
+form_code,name,visit_code
+eligibility,Eligibility,BASELINE
+baseline,Baseline assessment,BASELINE
+day7,Day 7 assessment,DAY7
+outcome,Day 28 outcome,DAY28
