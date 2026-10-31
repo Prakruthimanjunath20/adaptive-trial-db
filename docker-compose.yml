@@ -1,0 +1,14 @@
+services:
+  db:
+    image: postgres:16
+    container_name: trialdb
+    environment:
+      POSTGRES_PASSWORD: trialdb
+      POSTGRES_DB: trialdb
+    ports:
+      - "5433:5432"
+    volumes:
+      - trialdb_data:/var/lib/postgresql/data
+
+volumes:
+  trialdb_data:
