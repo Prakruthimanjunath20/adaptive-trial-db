@@ -1,0 +1,4 @@
+arm_code,name,allocation_weight
+A,Usual care,1
+B,Intervention B,1
+C,Intervention C,1

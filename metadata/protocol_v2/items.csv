@@ -1,0 +1,5 @@
+form_code,item_code,label,data_type,unit,range_min,range_max,required,choices
+day7,sbp,Systolic blood pressure,int,mmHg,60,250,N,
+day7,spo2,Oxygen saturation (SpO2),int,%,50,100,N,
+day7,ventilated,Invasive ventilation since baseline,code,,,,N,0=No|1=Yes
+day7,crp_mg_l,C-reactive protein,real,mg/L,0,500,N,
